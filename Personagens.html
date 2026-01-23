@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+	margin: 50px;
+    }
+.grid{
+	display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 24px;
+    }
+.arco {
+	font-size: 300%;
+    text-align: center;
+    font-family: montserrat;
+	margin: 60px auto;
+    }
+h1 {
+	flex: 1;
+	font-weight:bold;
+    color: #FFFFFF;
+    text-align: center;
+	font-size: clamp(1rem, 5vw, 6rem);
+	margin: 0;
+    /*text-decoration: underline;*/
+    font-family: bebas neue;
+    }
+h2 {
+	font-weight:bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-family: bebas neue;
+    }
+p {
+	color: #ffffff;
+    text-align: left;
+    font-family: montserrat;
+    }
+.card { padding: clamp(1rem, 3vw, 3rem); border-radius:24px; transition: box-shadow 0.3s ease, transform 0.3s ease;/*margin:auto;*/}
+.card:hover {  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35); transform: translateY(-6px);}
+.personagem {
+	padding: 1px; 
+	display: flex;
+    /*grid-template-columns: auto 1fr;*/
+	/*grid-template-columns: 40% 60%;*/
+	align-items: center;
+    gap: clamp(1rem, 2vw, 2rem);
+	}
+img {
+	flex: 0 0 40%;
+	width: clamp(80px, 12vw, 200px);
+}
+.baixo {
+	width: fit-content;
+	margin: 60px auto;
+	border-radius: 120px;
+	background-color: transparent;
+	border: 4px solid #000000;
+	padding: clamp(1rem, 3vw, 3rem);
+}
+.baixo:hover {
+	background-color: black;
+	color: white;
+}
+.troca {
+	font-family: montserrat;
+	font-weight: bold;
+	font-size: clamp(1rem, 2vw, 4rem);
+	text-align: center;
+	text-decoration: none;
+	color:#000000;
+}
+title {
+	color:#c0429f;
+}
+</style>
+</head>
+<body>
+<h3 class="arco">Concorrentes aos Prêmios de Melhor NPC</h3>
+<div class="grid">
+	<div class="card" style="background-color: #c0429f;">
+		<div class="personagem">
+    		<img src="Assado.png" alt="Assadão do Mal" title="Dante. Amigo.">
+			<h1>ASSADÃO DO MAL</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #42abc0;">
+		<div class="personagem">
+    		<img src="Booyahg.webp" alt="Booyahg" title="Ainda sinto que eu deveria ser o líder do Clã do Leão.">
+			<h1>Booyahg</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #42c06e;">
+			<div class="personagem">
+    		<img src="Drup.webp" alt="Drup" title="Cadê o Booyahg? Preciso cortar as unhas!">
+			<h1>Drup</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #c04244;">
+		<div class="personagem">
+    		<img src="Ebele.png" alt="Ebele" title="Gostaria que eu lesse a sua sorte? São apenas 50 peças de ouro.">
+			<h1>Ebele</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #c04244;">
+		<div class="personagem">
+    		<img src="Elicia.png" alt="Elicia" title="Será que ele me ama?">
+			<h1>Elicia</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #c08942;">
+			<div class="personagem">
+    		<img src="Fenrir.webp" alt="Fenrir" title="Por que, velho amigo?">
+			<h1>Fenrir</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #4248c0;">
+		<div class="personagem">
+    		<img src="Gambino.webp" alt="Gambino" title="Enviaram um Caçador atrás deles? Há! Espero que ele os traga para que os joguemos em um arena novamente!">
+			<h1>Gambino</h1>
+		</div>
+	</div>
+		<div class="card" style="background-color: #c0429f;">
+		<div class="personagem">
+    		<img src="Himo.png" alt="Himo" title="Talvez agora alguém queira dividir a erva comigo, já que a Nora não curte.">
+			<h1>Himo</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #42abc0;">
+		<div class="personagem">
+    		<img src="Hogar.png" alt="Hogar" title="Aquele não era Sanctum... não podia ser!">
+			<h1>Hogar</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #42c06e;">
+			<div class="personagem">
+    		<img src="Isolde.webp" alt="Isolde" title="Não há como vencê-los, então aprenda com eles.">
+			<h1>Isolde</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #c04244;">
+		<div class="personagem">
+    		<img src="Izu.png" alt="Izu" title="Meu marido lembrou de calçar as duas botas hoje, que orgulho!">
+			<h1>Izu</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #c08942;">
+			<div class="personagem">
+    		<img src="Julieta.png" alt="Julieta" title="Eu sempre soube que ele era um ser diferente... mas um boto! Eu mereço!">
+			<h1>Julieta</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #4248c0;">
+		<div class="personagem">
+    		<img src="Katarina.png" alt="Katarina" title="Por que eu não usaria magia pra isso?">
+			<h1>Katarina</h1>
+		</div>
+	</div>
+		<div class="card" style="background-color: #c0429f;">
+		<div class="personagem">
+    		<img src="Kyoko.png" alt="Kyoko" title="Tire esse cursor assanhado de cima de mim!">
+			<h1>Kyoko</h1>
+		</div>
+	</div>
+		<div class="card" style="background-color: #c0429f;">
+		<div class="personagem">
+    		<img src="Maria.webp" alt="Lady Maria" title="Sir Zé <3">
+			<h1>Lady Maria</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #42abc0;">
+		<div class="personagem">
+    		<img src="Pooh.webp" alt="Pooh" title="Por que, velho amigo?">
+			<h1>Pooh</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #42c06e;">
+			<div class="personagem">
+    		<img src="Querato.png" alt="Queráto" title="O amor não existe!">
+			<h1>Queráto</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #c04244;">
+		<div class="personagem">
+    		<img src="Selene.png" alt="Selene" title="Onde será que eu estou?">
+			<h1>Selene</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #c08942;">
+			<div class="personagem">
+    		<img src="Snoopy.webp" alt="Snoopy" title="Você viu uma bruxa por aí">
+			<h1>Snoopy</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #4248c0;">
+		<div class="personagem">
+    		<img src="Sora.png" alt="Sora" title="Biscoito <3">
+			<h1>Sora</h1>
+		</div>
+	</div>
+		<div class="card" style="background-color: #c0429f;">
+		<div class="personagem">
+    		<img src="Tarion.png" alt="Tárion" title="Um verdadeiro herói não usa máscara.">
+			<h1>O'Tárion</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #42abc0;">
+		<div class="personagem">
+    		<img src="Tiberius.webp" alt="Tiberius" title="Arquimago aposentado, Devoto renascido, Encantador de animais e Prefeito (exceto para assuntos políticos.)">
+			<h1>Tiberius</h1>
+		</div>
+	</div>
+    	<div class="card" style="background-color: #42c06e;">
+			<div class="personagem">
+    		<img src="Velatus.webp" alt="Velatus" title="Você quer resolver um puzzle?">
+			<h1>Velatus</h1>
+		</div>
+	</div>
+	<div  class="card" style="background-color: #4248c0;">
+		<div class="personagem">
+    		<img src="Zhong.png" alt="Zhong" title="Cof Cof">
+			<h1>Zhong</h1>
+		</div>
+	</div>
+</div>
+<a href="arcos.html" target="_blank" class="troca">
+	<div class="baixo">
+		Confira os Arcos que Cobriremos nessa noite do óscar!
+	</div>
+</a>
+</body>
+</html>
