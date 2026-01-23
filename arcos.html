@@ -2,12 +2,11 @@
 <html>
 <head>
 <style>
-body { 
-	margin: 50px;
-    }
+.tudo {
+	padding: clamp(16px, 5vw, 50px);
+}
 .grid{
 	display: grid;
-    /*grid-template-columns: 50% 50%;*/
     gap: 24px;
     }
 .arco {
@@ -20,7 +19,6 @@ h1 {
     color: #ffffff;
     text-align: center;
 	font-size: clamp(1rem, 4vw, 6rem);
-    /*text-decoration: underline;*/
     margin: 4px;
     font-family: bebas neue;
     }
@@ -36,8 +34,15 @@ p {
     text-align: center;
     font-family: roboto;
     }
-.card { padding:20px; padding-right: 50px; padding-left: 50px; border-radius:24px; transition: box-shadow 0.3s ease, transform 0.3s ease;/*margin:auto;*/}
-.card:hover {  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75); transform: translateY(-6px);}
+.card {
+	padding: clamp(1rem, 3vw, 3rem);
+	border-radius:24px;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75); 
+	transform: translateY(-6px);
+}
 .troca {
 	font-family: montserrat;
 	font-weight: bold;
@@ -58,9 +63,6 @@ p {
 	background-color: black;
 	color: white;
 }
-/*.baixo:hover .troca {
-	color: white;
-}*/
 .texto {
   max-height: 0;
   overflow: hidden;
@@ -79,6 +81,7 @@ summary::-webkit-details-marker {
 </style>
 </head>
 <body>
+<main class="tudo">
 <h3 class=arco>Resumo dos Arcos <br> (Sessões 98~135)</h1>
 <div class="grid">
 	<details class="card" style="background-color: #c0429f;">
@@ -142,5 +145,6 @@ summary::-webkit-details-marker {
 	<!--<a href="Personagens.html" target="_blank" class="troca">Confira os principais NPC's que apareceram nesses arcos!</a>-->
 </div>
 </a>
+</main>
 </body>
 </html>

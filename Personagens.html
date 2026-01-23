@@ -2,9 +2,9 @@
 <html>
 <head>
 <style>
-body { 
-	margin: 50px;
-    }
+.tudo {
+	padding: clamp(16px, 5vw, 50px);
+}
 .grid{
 	display: grid;
     grid-template-columns: 50% 50%;
@@ -38,13 +38,18 @@ p {
     text-align: left;
     font-family: montserrat;
     }
-.card { padding: clamp(1rem, 3vw, 3rem); border-radius:24px; transition: box-shadow 0.3s ease, transform 0.3s ease;/*margin:auto;*/}
-.card:hover {  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35); transform: translateY(-6px);}
+.card {
+	padding: clamp(1rem, 3vw, 3rem);
+	border-radius:24px;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+	}
+.card:hover {
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75);
+	transform: translateY(-6px);
+}
 .personagem {
 	padding: 1px; 
 	display: flex;
-    /*grid-template-columns: auto 1fr;*/
-	/*grid-template-columns: 40% 60%;*/
 	align-items: center;
     gap: clamp(1rem, 2vw, 2rem);
 	}
@@ -78,6 +83,7 @@ title {
 </style>
 </head>
 <body>
+<main class="tudo">
 <h3 class="arco">Concorrentes aos Prêmios de Melhor NPC</h3>
 <div class="grid">
 	<div class="card" style="background-color: #c0429f;">
@@ -230,5 +236,6 @@ title {
 		Confira os Arcos que Cobriremos nessa noite do óscar!
 	</div>
 </a>
+</main>
 </body>
 </html>
