@@ -8,3 +8,6 @@
     text-align: center;
     font-family: montserrat;
     }
+.banner-layout .index-layout {
+    background-color: var(--azul);
+}

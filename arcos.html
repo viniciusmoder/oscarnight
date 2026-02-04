@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8"> <!-- Pra não bugar os carateres -->
-	<title>Noite do Óscar</title> <!-- Nome da página -->
+	<title>Arcos Noite do Óscar</title> <!-- Nome da página -->
 
   <!--Fontes do Google-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,19 +14,20 @@
 
   <script type="module" src="js/main.js" defer></script> <!-- scripts -->
 </head>
-<body style="background-color: var(--azul);">
+<body>
 <!-- Usando main para poder criar uma margem geral sem setar isso direto no body -->
-<main class><!-- Título no topo da página -->
-    <div class="banner">
-        <div>Noite do Óscar</div>
-    </div>
-    <div class="header">
-        <div><a class="header-button" target="_blank" href="premios.html">Prêmios Principais</a></div>
-        <div><a class="header-button" target="_blank" href="arcos.html">Arcos</a></div>
-        <div><a class="header-button" target="_blank" href="Personagens.html">NPC's</a></div>
-        <div><a class="header-button" target="_blank" href="campanha.html">A Campanha</a></div>
-        <div><a class="header-button" target="_blank" href="creditos.html">Créditos</a></div>
-    </div>
+<main class="page-layout">
+<!-- Título no topo da página -->
+<h3 class="page-title">Resumo dos Arcos <br> (Sessões 98~135)</h3>
+<!-- Seta o grid para todos os cards da página-->
+<div class="arcos-grid">
+</div>
+<!-- Configuração do botão que leva para a outra página -->
+<a href="Personagens.html" target="_blank" class="page-button-text">
+<div class="page-button">
+	Confira os principais NPC's que apareceram nesses arcos!
+</div>
+</a>
 </main>
 </body>
 </html>

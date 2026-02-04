@@ -17,6 +17,7 @@
 .texto-card {
     font-size: clamp(0.25rem, 1.25vw, 3rem);
     color: #ffffff;
-    text-align: center;
+    text-align: justify;
     font-family: roboto;
+    text-indent: 2vw;
 }

@@ -2,7 +2,7 @@ export const arcosData = [ //cria um array com as informações dos cards
   {
     titulo: "O Episódio da Praia",
     sessoes: 4,
-    texto: "Arco em que o grupo estava lamentando as perdas de Meylin e Clarabela. Serviu para que Trebor, Lyra e, na época, Louis, se aproximassem do pai deles um pouco. Tárion deu seu show, não sabendo lidar com suas paixões por Lyra e Dante, e também é nesse arco que Zé aparece e se junta ao grupo, supostamente como uma espécie de mentor para Dante. Vários personagens têm sonhos ou revelações por parte de divindades, e acabam se decidindo por seguir em direção a Quadrivium. Dante espia o passado d’O Dente, e descobre algumas coisas assustadoras."
+    texto: `Arco em que o grupo estava lamentando as perdas de Meylin e Clarabela. Serviu para que Trebor, Lyra e, na época, Louis, se aproximassem do pai deles um pouco. Tárion deu seu show, não sabendo lidar com suas paixões por Lyra e Dante, e também é nesse arco que Zé aparece e se junta ao grupo, supostamente como uma espécie de mentor para Dante. Vários personagens têm sonhos ou revelações por parte de divindades, e acabam se decidindo por seguir em direção a Quadrivium. Dante espia o passado d’O Dente, e descobre algumas coisas assustadoras.`
   },
   {
     titulo: "Quadrivium",
