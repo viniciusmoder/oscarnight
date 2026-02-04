@@ -14,19 +14,31 @@
 
   <script type="module" src="js/main.js" defer></script> <!-- scripts -->
 </head>
-<body style="background-color: var(--azul);">
+<body>
 <!-- Usando main para poder criar uma margem geral sem setar isso direto no body -->
-<main class><!-- Título no topo da página -->
-    <div class="banner">
-        <div>Noite do Óscar</div>
+<main><!-- Título no topo da página -->
+  <div class="hero">
+    <img id="logo" src="assets/icons/favicon.png" title="logotipo">
+      <div class="header">
+        <h1>Noite do Óscar</h1>
+        <h3>A maior premiação de RPG*</h3>
+        <div class="button">Explore!</div>
     </div>
-    <div class="header">
-        <div><a class="header-button" target="_blank" href="premios.html">Prêmios Principais</a></div>
-        <div><a class="header-button" target="_blank" href="arcos.html">Arcos</a></div>
-        <div><a class="header-button" target="_blank" href="Personagens.html">NPC's</a></div>
-        <div><a class="header-button" target="_blank" href="campanha.html">A Campanha</a></div>
-        <div><a class="header-button" target="_blank" href="creditos.html">Créditos</a></div>
-    </div>
+  </div>
+  <div id="premio-principal"><a target="_blank" href="premios.html">Prêmios Principais</a></div>
+  <div class="front-card-grid">      
+      <div><a target="_blank" href="arcos.html">Arcos</a></div>
+      <div><a target="_blank" href="Personagens.html">NPC's</a></div>
+      <div><a target="_blank" href="campanha.html">A Campanha</a></div>
+      <div><a target="_blank" href="creditos.html">Créditos</a></div>
+   </div>
+   <div class="destaque"></div>
+   <footer class="footer">
+      <section class="innerfooter">
+        <img src="assets/icons/favicon.png" alt="Noite do Óscar">
+        <p>Noite do Óscar</p>
+      </section>
+   </footer>
 </main>
 </body>
 </html>

@@ -1,31 +1,82 @@
+body {
+    margin: 0; /*para permitir que os elementos alcancem as bordas, possível ver outro jeito depois*/
+}
+#logo {
+    max-height: 50px;
+    text-align: left;
+    margin: 16px;
+}
+.hero {
+    background-image: url(/assets/images/teste.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    width: 100%; /*ocupa toda a largura da tela*/
+    height: 100vh;
+    background-size:cover; /*imagem prenche o div*/
+    background-position: center;
+    margin-bottom: 72px;
+}
 .header {
-    display: flex;
     text-align: center;
-    justify-content: center;
-}
-
-.header div {
-    font-family: "Bebas Neue";
-    font-style: normal;
-    font-size: 300%;
-    padding: 50px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--anil);
-}
-
-.banner {
     display: flex;
-    justify-content: center;
-    font-family: "Bebas Neue";
-    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+}
+.header h1 {
     font-size: 500%;
-    text-align: center;
-    padding: 50px;
-    background-color: var(--anil);
-    border-radius: 25px;
+    margin-bottom: 72px;
 }
-
-.banner div {
-    color: white;
+.header h3 {
+    font-size: 200%;
+     margin-bottom: 72px;
+}
+.button {
+    align-items: center;
+    background-color: var(--azul);
+    width: fit-content;
+    padding: 24px;
+    border-radius: 36px;
+}
+.front-card-grid {
+    display: grid;
+    grid-template-columns: auto auto; /*duas colunas alinhadas automaticamente*/
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    max-width: 1200px; /*impede o gri de ficar maior que isso*/
+    margin: 0 auto;
+    margin-bottom: 72px;
+}
+.front-card-grid div {
+    background-color: var(--rosa);
+    width: 300px; /*largura fixa dos cards*/
+    padding: 72px;
+    border-radius: 16px;
+    text-align: center;
+}
+#premio-principal {
+    display: grid;
+    justify-content: center;
+    background-color: var(--rosa);
+    width: 768px; /*largura fixa do card principal*/
+    padding: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.destaque {
+    background-color: var(--azul);
+    width: 100%;
+    height: 50vh;
+}
+.footer {
+    background-color: var(--anil);
+    padding: 32px;
+}
+.innerfooter {
+    padding: 16px;
+}
+.innerfooter img {
+    max-height: 100px;
+    padding: 16px;
 }
