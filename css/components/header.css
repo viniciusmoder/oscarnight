@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-title {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    font-size: 700%;
+    margin-bottom: 24px;
+}
+.header-subtitle {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+    margin-bottom: 72px;
+}

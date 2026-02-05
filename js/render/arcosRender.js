@@ -12,7 +12,7 @@ arco.forEach((arcoInfo, index) => { //para cada card do array ele vai fazer o se
   arcosCard.style.backgroundColor = `var(${cardArcosCor})`; //altera a cor do card com base na informação dentro do array
 //adiciona o conteúdo HTML dentro do card (mesma estrutura que escrevi am HTML previamente)
   arcosCard.innerHTML = `
-    <div>
+    <div class="arcos">
       <h1 class="arcos-nome">${arcoInfo.titulo}</h1>
       <h2 class="arcos-sessao">(${arcoInfo.sessoes} Sessões)</h2>
     </div>

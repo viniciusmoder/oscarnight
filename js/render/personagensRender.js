@@ -13,9 +13,9 @@ export function renderPersonagens(personagem) { //exporta a função de renderiz
 			//escreve no html
 			personagemCard.innerHTML = `
 			<div>
-				<div class="char-imagem">
-					<img class="char-token" src="${personagem.imagem.src}" alt="${personagem.imagem.alt}" title="${personagem.imagem.title}">
-					<h1 class="char-nome">${personagem.nome}</h1>
+				<div class="char-imagem flex flex-center gap-dynamic">
+					<img class="char-token flex-token" src="${personagem.imagem.src}" alt="${personagem.imagem.alt}" title="${personagem.imagem.title}">
+					<h1 class="char char-nome">${personagem.nome}</h1>
 				</div>
 			</div>
 			`;

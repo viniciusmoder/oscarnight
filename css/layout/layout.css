@@ -1,0 +1,16 @@
+/* Garante uma margem dinâmica pra página de forma geral */
+.page-layout {
+	padding: clamp(16px, 5vw, 50px);
+}
+.flex-token {
+    flex: 0 0 40%;
+}
+.flex {
+    display: flex;
+}
+.flex-center {
+    align-items: center;
+}
+.gap-dynamic {
+    gap: clamp(1rem, 2vw, 2rem);
+}

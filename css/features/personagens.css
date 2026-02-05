@@ -1,0 +1,19 @@
+
+.char {
+    font-family: bebas neue;
+    color: #FFFFFF;
+}
+.char-nome {
+	font-weight:400;
+    text-align: center;
+	font-size: clamp(1rem, 5vw, 6rem);
+	margin: 0;
+}
+.char-token {
+	width: clamp(80px, 12vw, 500px);
+}
+.char-imagem {
+	padding: 1px; 
+	}
+
+

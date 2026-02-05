@@ -1,0 +1,25 @@
+.front-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /*duas colunas alinhadas automaticamente*/
+    justify-content: center;
+    gap: 24px;
+    align-items: stretch;
+    margin: 0 auto 72px;
+}
+.hero {
+    background-image: url(/assets/images/teste.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    width: 100%; /*ocupa toda a largura da tela*/
+    height: 100vh;
+    background-size:cover; /*imagem prenche o div*/
+    background-position: center;
+    margin-bottom: 72px;
+}
+.front-grid .card-large {
+        grid-column: span 2;
+}
+.highlight-layout {
+    display: flex;
+    padding: 24px;
+}

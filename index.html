@@ -18,21 +18,25 @@
 <!-- Usando main para poder criar uma margem geral sem setar isso direto no body -->
 <main><!-- Título no topo da página -->
   <div class="hero">
-    <img id="logo" src="assets/icons/favicon.png" title="logotipo">
+    <img class="logo" src="assets/icons/favicon.png" title="logotipo">
       <div class="header">
-        <h1>Noite do Óscar</h1>
-        <h3>A maior premiação de RPG*</h3>
-        <div class="button">Explore!</div>
+        <h1 class="header-title">Noite do Óscar</h1>
+        <h3 class="header-subtitle">A maior premiação de RPG* que o mundo já viu!</h3>
+        <div class="page-button page-button-text">Conheça os principais concorrentes</div>
     </div>
   </div>
-  <div id="premio-principal"><a target="_blank" href="premios.html">Prêmios Principais</a></div>
-  <div class="front-card-grid">      
-      <div><a target="_blank" href="arcos.html">Arcos</a></div>
-      <div><a target="_blank" href="Personagens.html">NPC's</a></div>
-      <div><a target="_blank" href="campanha.html">A Campanha</a></div>
-      <div><a target="_blank" href="creditos.html">Créditos</a></div>
+    <div class="front-grid">
+      <div class="card-large card front-card-title"><a target="_blank" href="premios.html">Prêmios Principais</a></div>  
+      <div class="card front-card front-card-title"><a target="_blank" href="arcos.html">Arcos</a></div>
+      <div class="card front-card front-card-title"><a target="_blank" href="Personagens.html">NPC's</a></div>
+      <div class="card front-card front-card-title"><a target="_blank" href="campanha.html">A Campanha</a></div>
+      <div class="card front-card front-card-title"><a target="_blank" href="creditos.html">Créditos</a></div>
    </div>
-   <div class="destaque"></div>
+   <div class="index-highlight highlight-layout">
+    <img class="button-arrow" src="assets/icons/arrow.svg" alt="seta" style="transform:scaleX(-1);">
+    <p class="highlight-text">Você sabia? Kuhn nunca fez um healer de verdade! Ele até tenta fingr que o Dante cumpre esse papel, mas é muito pouco convincente.</p>
+    <img class="button-arrow" src="assets/icons/arrow.svg" alt="seta">
+   </div>
    <footer class="footer">
       <section class="innerfooter">
         <img src="assets/icons/favicon.png" alt="Noite do Óscar">

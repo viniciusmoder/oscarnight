@@ -1,7 +1,26 @@
-@import "base.css";
-@import "card.css";
-@import "arcos.css";
-@import "personagens.css";
-@import "button.css";
-@import "variaveis.css";
-@import "header.css";
+/*base*/
+@import "base/variables.css";
+@import "base/utilities.css";
+@import "base/reset.css";
+
+/*layout*/
+@import "layout/layout.css";
+@import "layout/indexlayout.css";
+@import "layout/arcoslayout.css";
+@import "layout/charlayout.css";
+
+/*componentes*/
+@import "components/card.css";
+@import "components/components.css";
+@import "components/button.css";
+@import "components/footer.css";
+@import "components/logo.css";
+@import "components/header.css";
+
+/*features*/
+@import "features/arcos.css";
+@import "features/personagens.css";
+@import "features/indexfeatures.css";
+
+
+

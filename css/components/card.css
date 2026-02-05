@@ -8,16 +8,29 @@
 	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75); 
 	transform: translateY(-6px);
 }
-.card .texto-card {
-    display: none;
-}
-.card.open .texto-card {
-    display: block;
-}
 .texto-card {
     font-size: clamp(0.25rem, 1.25vw, 3rem);
     color: #ffffff;
     text-align: justify;
     font-family: roboto;
     text-indent: 2vw;
+}
+.card .texto-card {
+    display: none;
+}
+.card.open .texto-card {
+    display: block;
+}
+.front-card {
+    background-color: var(--rosa);
+    width: 300px; /*largura fixa dos cards*/
+    padding: 72px;
+    border-radius: 16px;
+    text-align: center;
+}
+.card-large {
+    background-color: var(--rosa);
+    width: 768px; /*largura fixa do card principal*/
+    margin: 0 auto;
+    padding: 72px;
 }
