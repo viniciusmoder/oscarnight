@@ -22,14 +22,12 @@
     display: block;
 }
 .front-card {
-    background-color: var(--rosa);
     width: 300px; /*largura fixa dos cards*/
     padding: 72px;
     border-radius: 16px;
     text-align: center;
 }
 .card-large {
-    background-color: var(--rosa);
     width: 768px; /*largura fixa do card principal*/
     margin: 0 auto;
     padding: 72px;

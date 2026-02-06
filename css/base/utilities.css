@@ -6,7 +6,8 @@
 }
 /* Garante uma margem dinâmica pra página de forma geral */
 .page-layout {
-	padding: clamp(16px, 5vw, 50px) clamp(4px, 2vw, 16px);
+	/*padding: clamp(16px, 5vw, 50px) clamp(4px, 2vw, 16px);*/
+    padding-top: clamp(16px, 5vw, 50px);
 }
 .flex-token {
     flex: 0 0 40%;
@@ -34,5 +35,12 @@
 }
 .icon-card {
     float: right;
-
+}
+.text-center {
+    text-align: justify;
+    margin: auto clamp(2rem, 10vw, 10rem);
+    font-size: clamp(1rem, 2vw, 10rem);
+    color: #ffffff;
+    font-family: roboto;
+    text-indent: 3vw;
 }
