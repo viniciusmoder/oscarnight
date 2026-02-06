@@ -1,0 +1,10 @@
+.page-arcos {
+    background-color: var(--azul);
+    border-radius: 24px;
+}
+.content {
+    padding: 32px;
+    border-radius: 24px;
+    background-color: white;
+    margin-left: 0; 
+}

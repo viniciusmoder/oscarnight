@@ -1,6 +1,6 @@
 .arcos {
     font-family: bebas neue;
-    font-weight:400;
+    font-weight:300;
     color: #ffffff;
     text-align: center;
 }
@@ -10,4 +10,5 @@
 }
 .arcos-sessao {
 	margin: 0;
+    font-weight: 200;
 }

@@ -15,12 +15,23 @@
   <script type="module" src="js/main.js" defer></script> <!-- scripts -->
 </head>
 <body>
+<header class="header remove-link">
+	<a href="index.html" target="_blank"><img class="logo" src="assets/icons/favicon.png" title="logotipo"></a>
+	<nav class="header-nav">
+		<a class="header-card rosa header-text">Prêmios Principais</a>
+		<a class="header-card azul header-text active" href="arcos.html">Arcos</a>
+		<a class="header-card verde header-text" href="Personagens.html" target="_blank">NPC's</a>
+		<a class="header-card vermelho header-text">A Campanha</a>
+		<a class="header-card ocre header-text">Créditos</a>
+		<a class="header-card anil header-text">Campeões</a>
+	</nav>
+</header>
 <!-- Usando main para poder criar uma margem geral sem setar isso direto no body -->
-<main class="page-layout">
+<main class="page-layout page-arcos">
 <!-- Título no topo da página -->
 <h3 class="page-title">Resumo dos Arcos <br> (Sessões 98~135)</h3>
 <!-- Seta o grid para todos os cards da página-->
-<div class="arcos-grid">
+<div class="arcos-grid content" >
 </div>
 <!-- Configuração do botão que leva para a outra página -->
 <a href="Personagens.html" target="_blank" class="page-button-text">

@@ -34,3 +34,8 @@
     margin: 0 auto;
     padding: 72px;
 }
+.card-header {
+	padding: clamp(1rem, 3vw, 3rem);
+	border-radius:24px;
+	transition: box-shadow 0.3s ease, transform 0.3s ease; /* Necessário para a animação quando em hover */
+}

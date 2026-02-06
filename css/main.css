@@ -16,6 +16,7 @@
 @import "components/footer.css";
 @import "components/logo.css";
 @import "components/header.css";
+@import "components/pages.css";
 
 /*features*/
 @import "features/arcos.css";

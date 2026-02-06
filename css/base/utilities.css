@@ -4,3 +4,35 @@
 .mt-60 {
     margin-top: 60px;
 }
+/* Garante uma margem dinâmica pra página de forma geral */
+.page-layout {
+	padding: clamp(16px, 5vw, 50px) clamp(4px, 2vw, 16px);
+}
+.flex-token {
+    flex: 0 0 40%;
+}
+.flex {
+    display: flex;
+}
+.flex-center {
+    align-items: center;
+}
+.gap-dynamic {
+    gap: clamp(1rem, 2vw, 2rem);
+}
+.flex-column {
+    flex-direction: column;
+}
+.remove-link a:visited {
+    text-decoration: none;
+}
+.remove-link a:link {
+    text-decoration: none;
+}
+.iconS {
+    max-width: 50px;
+}
+.icon-card {
+    float: right;
+
+}
