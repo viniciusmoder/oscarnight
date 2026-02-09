@@ -4,9 +4,10 @@
     padding: clamp(1rem, 1vw, 3rem) clamp(1rem, 2vw, 3rem) clamp(1rem, 1vw, 3rem) clamp(1rem, 2vw, 3rem);
     /*padding: clamp(1rem, 1rem, 3rem);*/
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Necessário para a animação quando em hover */
+    display: inline-block;
 }
 .page-button:hover {
-	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75); 
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5); 
 	transform: translateY(-6px);
 }
 .page-button-text {
